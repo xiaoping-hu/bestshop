@@ -2,7 +2,7 @@
 Demo microservices based e-commerce app with product management and shop cart, Built with Java, Spring boot, React. Powered by jHipster
 
 # Architecture Diagram
-![Architure](docs\images\arhitecture.png)
+![Architecture](docs/images/architecture.png)
 
 # Requirments 
 ## Store owner:
