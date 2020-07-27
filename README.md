@@ -23,6 +23,27 @@ Demo microservices based e-commerce app with product management and shop cart, B
 - ROLE_STORE_OWNER
 - ROLE_USER
 
+# How to run this application?
+- Check out the repository
+``` git clone git@github.com:xiaoping-hu/bestshop.git````
+- Run command below in folders: uaa, gateway, product, cart
+```
+cd uaa
+./gradlew bootJar -Pprod jibDockerBuild
+cd ../gateway
+./gradlew bootJar -Pprod jibDockerBuild
+cd ../product
+./gradlew bootJar -Pprod jibDockerBuild
+cd ../cart
+./gradlew bootJar -Pprod jibDockerBuild
+cd ..
+```
+- Boot the application with docker compose
+```
+docker-compose up -d 
+```
+- Access the portal from http://localhost:8080
+
 # Services
 ## JHipster UAA
 
