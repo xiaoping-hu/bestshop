@@ -1,0 +1,11 @@
+{
+  "generator-jhipster": {
+    "appsFolders": ["bestshop-cart", "bestshop-gateway", "bestshop-product", "bestshop-uaa"],
+    "directoryPath": "../",
+    "gatewayType": "zuul",
+    "monitoring": "no",
+    "consoleOptions": [],
+    "serviceDiscoveryType": "eureka",
+    "jwtSecretKey": "YzFjODcyNzBlNGY5NmVhNGY2NDViNDk3NDM2M2ExZTljZjhiMjI1Y2UxZmRlOWI4ODNkMzIzN2VmNDk5MzNlMTg0YzVmNTI4MTY3MDQyODlmOTBjNmJkNzZiN2JhNTZlMDY0Yg=="
+  }
+}
