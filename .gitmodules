@@ -1,0 +1,12 @@
+[submodule "uaa"]
+	path = uaa
+	url = git@github.com:xiaoping-hu/bestshop-uaa.git
+[submodule "gateway"]
+	path = gateway
+	url = git@github.com:xiaoping-hu/bestshop-gateway.git
+[submodule "product"]
+	path = product
+	url = git@github.com:xiaoping-hu/bestshop-product.git
+[submodule "cart"]
+	path = cart
+	url = git@github.com:xiaoping-hu/bestshop-cart.git
