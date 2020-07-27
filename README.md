@@ -1,5 +1,8 @@
-# bestshop
+# Bestshop
 Demo microservices based e-commerce app with product management and shop cart, Built with Java, Spring boot, React. Powered by jHipster
+
+# Architecture Diagram
+![Architure](docs\images\arhitecture.png)
 
 # Requirments 
 ## Store owner:
