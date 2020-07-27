@@ -25,7 +25,9 @@ Demo microservices based e-commerce app with product management and shop cart, B
 
 # How to run this application?
 - Check out the repository
-``` git clone git@github.com:xiaoping-hu/bestshop.git````
+```
+git clone git@github.com:xiaoping-hu/bestshop.git
+````
 - Run command below in folders: uaa, gateway, product, cart
 ```
 cd uaa
