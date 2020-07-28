@@ -4,8 +4,10 @@ Demo microservices based e-commerce app with product management and shop cart, B
 # Demo on Heroku
 https://bestshop-gateway.herokuapp.com/
 
-# Architecture Diagram
-![Architecture](docs/images/architecture.png)
+Users: 
+- admin/admin ROLE_ADMIN
+- owner/owner ROLE_STORE_OWNER
+- user/user ROLE_USER
 
 # Requirments 
 ## Store owner:
@@ -21,11 +23,21 @@ https://bestshop-gateway.herokuapp.com/
 - Remove product from basket
 - Calculate total price and products taking into account all discounts and bundles
 
-# Roles
-- ROLE_ADMIN
-- ROLE_STORE_OWNER
-- ROLE_USER
+# Architecture Diagram
+![Architecture](docs/images/architecture.png)
 
+# Screenshots
+### Home
+![Home](docs/images/home.png)
+
+### Login
+![Login](docs/images/login.png)
+
+### Product List
+![Product List](docs/images/product_list.png)
+
+### Cart
+![Cart](docs/images/cart.png)
 # How to run this application?
 - Check out the repository
 ```
