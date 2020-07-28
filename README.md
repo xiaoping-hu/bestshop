@@ -25,19 +25,6 @@ Users:
 
 # Architecture Diagram
 ![Architecture](docs/images/architecture.png)
-
-# Screenshots
-### Home
-![Home](docs/images/home.png)
-
-### Login
-![Login](docs/images/login.png)
-
-### Product List
-![Product List](docs/images/product_list.png)
-
-### Cart
-![Cart](docs/images/cart.png)
 # How to run this application?
 - Check out the repository
 ```
@@ -60,6 +47,32 @@ cd ..
 docker-compose up -d 
 ```
 - Access the portal from http://localhost:8080
+# Screenshots
+## Normal User
+### Home
+![Home](docs/images/home.png)
+
+### Login
+![Login](docs/images/login.png)
+
+### Product List
+![Product List](docs/images/product_list.png)
+### Product Detail
+![Product Detail](docs/images/product_detail.png)
+### Cart
+![Cart](docs/images/cart.png)
+
+## Store Owner
+
+### Prouct Management
+![Prouct Management](docs/images/edit_product.png)
+
+### Product Bundle Management
+![Product Bundle Management](docs/images/product_bundle.png)
+
+### Cart Discount Rule Management
+![Cart Discount Rule](docs/images/cart_discount_rule.png)
+
 
 # Services
 ## JHipster UAA
